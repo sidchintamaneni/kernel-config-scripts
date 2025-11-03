@@ -9,7 +9,7 @@ The approach is to start slowly with scripting and later integrate AI to reduce
 the manual workload on kernel maintainers. The first step is to build
 command-line tools that can later be used by AI agents.
 
-TODO:
-[] Evaluate the existing kernel kconfig scripts
-[] Build a basic command line tool that diff's betweenn two config
-[] Add more command line options that does diff's for specific usecases
+TODO: \
+[] Evaluate the existing kernel kconfig scripts \
+[] Build a basic command line tool that diff's betweenn two config \
+[] Add more command line options that does diff's for specific usecases \
