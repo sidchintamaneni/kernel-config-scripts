@@ -2,6 +2,7 @@
 # FORMAT: 4
 # ARCH: amd64 arm64-64k
 # FLAVOUR: amd64-kernel-hwe arm64-64k-kernel-hwe
+# KERNEL_VERSION: 6.18.5
 
 
 # ---- Annotations without notes ----
