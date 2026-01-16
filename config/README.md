@@ -1,0 +1,1 @@
+- I've taken hwe config from azurelinux repo from recently released 6.18 kernel

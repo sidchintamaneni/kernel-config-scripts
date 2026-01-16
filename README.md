@@ -11,11 +11,19 @@ kernel. So once the distro decides to upgrade the kernel, it has a config file
 ready.
 
 TODO:
+
 [ ] First step is to create a config record/ database file to keep track config
 options across different flavors and architectures.
  
 **Stale**
+
 The approach is to start slowly with scripting and later integrate AI to reduce
 the manual workload on kernel maintainers. The first step is to build
 command-line tools that can later be used by AI agents.
 
+**Commands to generate annotation files**
+
+```
+touch annotations
+./ubuntu-annotations/annotations --file annotations --arch arm64 --flavour kernel-hwe --import config/config_aarch64
+```
