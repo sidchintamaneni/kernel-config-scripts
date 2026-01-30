@@ -21,9 +21,14 @@ The approach is to start slowly with scripting and later integrate AI to reduce
 the manual workload on kernel maintainers. The first step is to build
 command-line tools that can later be used by AI agents.
 
-**Commands to generate annotation files**
+**Command to generate annotation files**
 
 ```
 touch annotations
 ./ubuntu-annotations/annotations --file annotations --arch arm64 --flavour kernel-hwe --import config/config_aarch64
+```
+
+**Command to genereate config files from annotation files**
+```
+./ubuntu-annotations/annotations --file annotations --arch arm64 --flavour kernel-hwe --export
 ```
